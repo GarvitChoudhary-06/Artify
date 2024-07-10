@@ -1,0 +1,192 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    text-align: center;
+}
+#logo{
+   display: inline-block;
+   float: left;
+   
+   
+   
+   padding-left: 20px;
+}
+
+#nav{
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.603);
+   
+    position:fixed;
+    width: 100%;
+    z-index: +1;
+    
+ }
+ #nav ul {
+    display: inline-block;
+ }
+
+#nav ul li
+ {   
+    width: 50px;
+    height: 65px;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    
+    color: white;
+ }
+ #connect{
+   height: 50px;
+   float: right;
+   width: 170px;
+   color: aliceblue;
+   font-size:x-large;
+   line-height: 50px;
+word-spacing: 20px;
+margin-right: 20px;
+ }
+ .connecta{
+   color: white;
+   text-decoration: none;
+ }
+.card{
+   transition: 0.1s;
+   transition-property: border;
+}
+ .card:hover{
+   border:1px solid white;
+ }
+ 
+ .btn-primary:hover{
+   transform: scale(1.03);
+ }
+
+ #artifyimg{
+    height: 50px;
+    width:200px;
+   }
+.menua
+ {   color: rgb(255, 255, 255);
+     text-decoration: none;
+ 
+ }
+.menua:hover
+ {
+     color:#3eade0;
+    
+     
+ }
+
+ .background{
+    width: auto;
+    height: auto;
+  
+ }
+ #carouselExampleIndicators{
+   margin-top: 150px;
+   margin-left: 17px;
+ }
+
+
+.card{
+  margin:-15px;
+  margin-left: -16px;
+}
+
+ .work{
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    
+ }
+.orderform{
+   
+}
+
+
+
+ .orderplz{
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+ }
+
+ #moreimg
+ {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 300;
+    font-family:  sans-serif;
+    background-image: linear-gradient( 45deg,#435214,#849D34,#849D34 );
+    transition: 0.5s; 
+
+}
+ #moreimg:hover{
+   background-image:linear-gradient(45deg,#435214,#849D34) ;
+        transform: scale(1.031,1.031);
+ }
+ 
+ .testimonial{
+   width: 100%;
+   height: 700px;
+   background-image: url(/projects/updated\ artify/);
+   margin-top: 150px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+ .orderme{
+    margin-top: 150px;
+    object-fit: cover;
+    height: 95vh;
+    width: 100%;
+    background-image: url(/images/3.png);
+ }
+ footer{
+   width: 100%;
+   height: 270px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   background-color: rgb(34, 32, 32);
+   gap: 2px;
+   color: rgb(243, 235, 235);
+   margin-top: 20px;
+   
+ }
+ .footerelement{
+   background-color: black;
+   padding: 5px;
+
+ }
+ #l3{
+   padding-top: 40px;
+ }
+ #l2{
+   padding-top: 40px;
+   background-color: rgb(10, 10, 10);
+ }
+
+ #connectf{
+    grid-column: 2;
+    text-align: center;
+    padding: auto;
+    height: 120px;
+    width: 100%;
+    font-size: xx-large;
+    word-spacing: 20px;
+    line-height: 100px;
+ }
+ .form-check{
+   display: inline block;
+ }
+ .orderbutton{
+   margin-top: -340px;
+   background-color: grey;
+   height: 50px;
+   width: 220px;
+   border-radius: 70px;
+ }
